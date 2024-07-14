@@ -1,0 +1,19 @@
+@import url("theme.css") all;
+body {
+    margin: 0;
+}
+.zogolovok {
+    margin-left: 5%;
+}
+.text {
+    margin-left: 5%;
+}
+.imges {
+    position: absolute;
+    margin-left: 37.2%;
+    top: 120px;
+}
+.targets{
+    margin-top: 10px;
+}
+

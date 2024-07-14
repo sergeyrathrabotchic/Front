@@ -1,0 +1,630 @@
+body {
+    margin: 0;
+}
+.zogolovok {
+    margin-left: 5%;
+}
+.text {
+    margin-left: 5%;
+}
+.imges {
+    position: absolute;
+    margin-left: 37.2%;
+    top: 120px;
+}
+.targets{
+    margin-top: 10px;
+}
+
+.vectorGraphics {
+    position: absolute;
+    z-index: 1;
+    padding: 1px;
+    left: 40%;
+    top: 107px;
+    background-color: #c177ae;
+
+}
+.vectorGraphicsText{
+    display:none;
+}
+
+.vectorGraphics:hover + .vectorGraphicsText{
+    /*background-color:  #1da051;*/
+    display: block;
+}
+
+.vectorGraphics:hover ~ .defaultTex{
+    display:none;
+}
+
+.pixel {
+    position: absolute;
+    z-index: 1;
+    padding: 1px;
+    left:40%;
+    top: 137px;
+    background-color: #c177ae;
+
+}
+
+.pixelText{
+    display:none;
+}
+
+.pixel:hover + .pixelText{
+    display: block;
+}
+
+.pixel:hover ~ .defaultTex{
+    display:none;
+}
+
+.palette {
+    position: absolute;
+    z-index: 1;
+    padding: 1px;
+    left: 37%;
+    top: 165px;
+    background-color: #c177ae;
+
+}
+
+.paletteText{
+    display:none;
+}
+
+.palette:hover + .paletteText{
+    display: block;
+}
+
+.palette:hover ~ .defaultTex{
+    display:none;
+}
+
+.rasterGraphics {
+    position: absolute;
+    z-index: 1;
+    padding: 1px;
+    left: 30%;
+    top: 193px;
+    background-color: #c177ae;
+
+}
+
+.rasterGraphicsText{
+    display:none;
+}
+
+.rasterGraphics:hover + .rasterGraphicsText{
+    display: block;
+}
+
+.rasterGraphics:hover ~ .defaultTex{
+    display:none;
+}
+
+
+
+.colorDepth {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 32%;
+    top: 223px;
+    background-color: #c177ae;
+
+}
+
+.colorDepthText{
+    display:none;
+}
+
+.colorDepth:hover + .colorDepthText{
+    display: block;
+}
+
+.colorDepth:hover ~ .defaultTex{
+    display:none;
+}
+
+.volumeOfTheRaster {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 11%;
+    top: 255px;
+    background-color: #c177ae;
+
+}
+
+.volumeOfTheRasterText{
+    display:none;
+}
+
+.volumeOfTheRaster:hover + .volumeOfTheRasterText{
+    display: block;
+}
+
+.volumeOfTheRaster:hover ~ .defaultTex{
+    display:none;
+}
+
+.codeTable {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 52%;
+    top: 107px;
+    background-color: #0ed145;
+
+}
+
+.codeTableText{
+    display:none;
+}
+
+.codeTable:hover + .codeTableText{
+    display: block;
+}
+
+.codeTable:hover ~ .defaultTex{
+    display:none;
+}
+
+.uniformCoding {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 55%;
+    top: 140px;
+    background-color: #0ed145;
+
+}
+
+.uniformCodingText{
+    display:none;
+}
+
+.uniformCoding:hover + .uniformCodingText{
+    display: block;
+}
+
+.uniformCoding:hover ~ .defaultTex{
+    display:none;
+}
+
+.unevenСoding {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 59%;
+    top: 175px;
+    background-color: #0ed145;
+
+}
+
+.unevenСodingText{
+    display:none;
+}
+
+.unevenСoding:hover + .unevenСodingText{
+    display: block;
+}
+
+.unevenСoding:hover ~ .defaultTex{
+    display:none;
+}
+
+.informationWeight {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 60%;
+    top: 210px;
+    background-color: #0ed145;
+
+}
+
+.informationWeightText{
+    display:none;
+}
+
+.informationWeight:hover + .informationWeightText{
+    display: block;
+}
+
+.informationWeight:hover ~ .defaultTex{
+    display:none;
+}
+
+.recordingChannels {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 61%;
+    top: 280px;
+    background-color: #fff200;
+
+}
+
+.recordingChannelsText{
+    display:none;
+}
+
+.recordingChannels:hover + .recordingChannelsText{
+    display: block;
+}
+
+.recordingChannels:hover ~ .defaultTex{
+    display:none;
+}
+
+.soundEncoding {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 59%;
+    top: 315px;
+    background-color: #fff200;
+
+}
+
+.soundEncodingText{
+    display:none;
+}
+
+.soundEncoding:hover + .soundEncodingText{
+    display: block;
+}
+
+.soundEncoding:hover ~ .defaultTex{
+    display:none;
+}
+
+.samplingRate {
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 58%;
+    top: 350px;
+    background-color: #fff200;
+
+}
+
+.samplingRateText{
+    display:none;
+}
+
+.samplingRate:hover + .samplingRateText{
+    display: block;
+}
+
+.samplingRate:hover ~ .defaultTex{
+    display:none;
+}
+
+.informationVolume{
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 56%;
+    top: 385px;
+    background-color: #fff200;
+
+}
+
+.informationVolumeText{
+    display:none;
+}
+
+.informationVolume:hover + .informationVolumeText{
+    display: block;
+}
+
+.informationVolume:hover ~ .defaultTex{
+    display:none;
+}
+
+.minimumUnit{
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 13%;
+    top: 300px;
+    background-color: #8cfffb;
+
+}
+
+.minimumUnitText{
+    display:none;
+}
+
+.minimumUnit:hover + .minimumUnitText{
+    display: block;
+}
+
+.minimumUnit:hover ~ .defaultTex{
+    display:none;
+}
+
+.unitOfInformation{
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    left: 22%;
+    top: 337px;
+    background-color: #8cfffb;
+
+}
+
+.unitOfInformationText{
+    display:none;
+}
+
+.unitOfInformation:hover + .unitOfInformationText{
+    display: block;
+}
+
+.unitOfInformation:hover ~ .defaultTex{
+    display:none;
+}
+
+.encodingOfGraphic{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    padding: 3px;
+    left: 42%;
+    top: 180px;
+    background-color: #c177ae;
+}
+
+.encodingOfTextInformation{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    padding: 3px;
+    left: 50%;
+    top: 190px;
+    background-color: #0ed145;
+}
+
+.encodingOfAudioInformation{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    padding: 3px;
+    left: 50%;
+    top: 280px;
+    background-color: #fff200;
+}
+
+.ChangingInformation{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    padding: 3px;
+    left: 42%;
+    top: 290px;
+    background-color: #8cfffb;
+}
+@media(max-width: 1325px){
+    .imges {
+        top: 130px;
+    }
+    .encodingOfGraphic {
+        top: 200px;
+        left: 42%;
+    }
+    .encodingOfTextInformation {
+        top: 200px;
+        left: 52%;
+    }
+    .encodingOfAudioInformation {
+        left: 52%;
+        top: 290px;
+    }
+    .ChangingInformation{ 
+        left: 42%;
+        top: 300px;
+    }
+    .vectorGraphics { 
+        left: 38%;
+        top: 117px;    
+    }
+    .pixel { 
+        left: 38%;
+        top: 147px;
+    }    
+    .palette { 
+        left: 36%;
+        top: 175px;
+    }
+    .rasterGraphics { 
+        left: 29%;
+        top: 203px;
+    }
+    .colorDepth { 
+        left: 30%;
+        top: 233px;
+    }
+    .volumeOfTheRaster { 
+        left: 9%;
+        top: 265px;
+    }
+    .codeTable { 
+        left: 56%;
+        top: 127px;
+    }
+    .uniformCoding { 
+        left: 59%;
+        top: 165px;
+    }
+    .unevenСoding {
+        left: 61%;
+        top: 205px;
+    }
+    .informationWeight { 
+        left: 62%;
+        top: 260px;
+    }
+    .recordingChannels { 
+        left: 62%;
+        top: 300px;
+    }
+    .soundEncoding { 
+        left: 61%;
+        top: 340px;
+    }
+    .samplingRate { 
+        left: 60%;
+        top: 380px;    
+    }
+    .informationVolume { 
+        left: 57%;
+        top: 415px;
+    }
+    .minimumUnit { 
+        left: 13%;
+        top: 370px;
+    }
+    .unitOfInformation { 
+        left: 23%;
+        top: 407px;
+    }
+}
+@media(max-width: 1190px){
+    .volumeOfTheRaster{
+        left: 5%;
+        top: 265px;
+    }
+    .unevenСoding {
+        left: 64%;
+        top: 205px;
+    }
+    .informationWeight { 
+        left: 65%;
+        top: 260px;
+    }
+    .recordingChannels { 
+        left: 65%;
+        top: 300px;
+    }
+    .soundEncoding { 
+        left: 65%;
+        top: 340px;
+    }
+    
+}
+@media(max-width: 1160px){
+    .encodingOfTextInformation {
+        top: 200px;
+        left: 54%;
+    }
+    .encodingOfAudioInformation {
+        left: 54%;
+        top: 290px;
+    }
+    .palette { 
+        left: 36%;
+        top: 175px;
+    }
+    .rasterGraphics { 
+        left: 28%;
+        top: 203px;
+    }
+}
+@media(max-width: 1024px){
+    .imges {
+        margin-left: 350px;
+    }
+    .encodingOfGraphic {
+        top: 200px;
+        left: 410px;
+    }
+    .encodingOfTextInformation {
+        top: 200px;
+        left: 530px;
+    }
+    .encodingOfAudioInformation {
+        left: 530px;
+        top: 290px;
+    }
+    .ChangingInformation{ 
+        left: 410px;
+        top: 300px;
+    }
+    .vectorGraphics { 
+        left: 370px;
+        top: 117px;    
+    }
+    .pixel { 
+        left: 365px;
+        top: 147px;
+    }    
+    .palette { 
+        left: 340px;
+        top: 175px;
+    }
+    .rasterGraphics { 
+        left: 250px;
+        top: 203px;
+    }
+    .colorDepth { 
+        left: 270px;
+        top: 233px;
+    }
+    .volumeOfTheRaster { 
+        left: 10px;
+        top: 265px;
+    }
+    .codeTable { 
+        width: 200px;
+        left: 560px;
+        top: 127px;
+    }
+    .uniformCoding { 
+        width: 250px;
+        left: 630px;
+        top: 165px;
+    }
+    .unevenСoding {
+        width: 250px;
+        left: 650px;
+        top: 205px;
+    }
+    .informationWeight { 
+        width: 250px;
+        left: 670px;
+        top: 260px;
+    }
+    .recordingChannels { 
+        width: 200px;
+        left: 670px;
+        top: 300px;
+    }
+    .soundEncoding { 
+        width: 250px;
+        left: 650px;
+        top: 340px;
+    }
+    .samplingRate { 
+        width: 200px;
+        left: 630px;
+        top: 380px;    
+    }
+    .informationVolume { 
+        width: 370px;
+        left: 590px;
+        top: 415px;
+    }
+    .minimumUnit { 
+        left: 50px;
+        top: 370px;
+    }
+    .unitOfInformation { 
+        left: 190px;
+        top: 407px;
+    } 
+}

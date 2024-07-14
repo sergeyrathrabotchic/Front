@@ -1,0 +1,340 @@
+<TsokRequest >
+      <id>8ce4d02b-012c-4b31-99b1-12206100b7fd</id>
+      <fill_datetime>2021-08-25 00:00:00</fill_datetime>
+      <number>09-05-00058</number>
+      <edu_levels_fk>92cb00cf-aec4-4370-be86-e4122ec96322</edu_levels_fk>
+      <subject_fk>7d019fd6-7ced-441e-9223-103b2817c407</subject_fk>
+      <class_number>5</class_number>
+      <classes_fk>711f6fdb-8c69-40ce-8f17-81aa95ac7945</classes_fk>
+      <lesson_number_fk>9dfe1bb9-0ad2-b2f8-7e0a-99ba7262dba0</lesson_number_fk>
+      <lesson_topic_fk>775886cb-4282-763c-3df8-874da72762e2</lesson_topic_fk>
+      <study_level_fk>6355e5a8-9d09-4746-be8e-eae7349fde6e</study_level_fk>
+      <lesson_type_fk>787a6960-b43b-603f-4c5e-a20fd77ebb7f</lesson_type_fk>
+      <ovz_type_fk></ovz_type_fk>
+      <keywords>the Hermitage, the Tower, St Basil’s Сathedral, the Baikal, Krasnaya Polyana, the Amber Room, sight, place, monument</keywords>
+      <short_description>Урок по предмету "Английский язык" для 5 класса по теме "Путешествия по России и зарубежным странам  Путешествия. Достопримечательности"; Комбинированный урок. На уроке предусмотрено использование следующих типов электронных образовательных материалов: "Самостоятельная работа", "Интерактивная статья (параграф учебника)", "Самостоятельная работа", "Самостоятельная работа", "Самостоятельная работа", "Самостоятельная работа", "Тест в формате ГИА", "Самостоятельная работа".</short_description>
+      <youwillknow>слова и выражения по теме «Путешествия по России и зарубежным странам. Путешествия.  Достопримечательности»; случаи употребления определённого, неопределённого и нулевого артикля с географическими названиями и названиями достопримечательностей; </youwillknow>
+      <youwilllearn>произносить утвердительные, вопросительные и восклицательные предложения с правильной интонацией; употреблять определённый и нулевой артикль с географическими названиями и названиями достопримечательностей; понимать фактологическую информацию в тексте; определять место, где содержится искомая информация; определять наличие или отсутствие информации; </youwilllearn>  
+      <author>Кауфман К. И (Авторский коллектив по английскому языку)</author>
+      
+      <BasicConcepts>
+        
+           <basic_concept>
+             <id>53b32833-2a85-12e4-7e49-159fc82fb397</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>c1960b17-37de-6b8f-a442-518642749181</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>219ed44d-de5b-6494-9cb8-6805f90c205d</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>4fb82a91-82cf-e6fd-b86e-ac26330c36e5</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>25f6db23-1136-2d87-ae46-fec539a2f9b2</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>a7283f12-d84e-23bf-1e8e-41ae3dc2e77f</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>2789eab1-9e5a-7aa8-026c-df8b8d38a79d</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>e4fecdbd-0591-fbdc-72da-51bf144888d2</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>c264873e-581d-9713-0e79-c8e993916dd6</id>
+           </basic_concept>
+        
+      </BasicConcepts>
+      
+      <RequestUnits>
+            <RequestUnit>
+                <id>b8d58c46-0254-f1ce-1b4b-265bcaa91f85</id>
+                <unit_fk>9270d4ad-5a92-4b4b-acbf-d8ae6457440f</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>60b68e50-058b-4b65-9fc2-eb7939221dc0</id>
+                        <number>1.2</number>
+                        <module_fk>d53d9242-5cdb-4f18-ac36-3102cc83c58b</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>6f098c00-a78f-498d-952d-262d8d40eaed</id>
+                              <number>09-05-00058-m1.2m-06-01</number>
+                              <name>Нахождение соответствий</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>5</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>db97e401-f392-7bf6-76e9-4f45edfdf9e7</id>
+                <unit_fk>a7c523f6-0a0c-49f2-a754-a42f7777494d</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>db115aac-8437-45ec-8c61-de7bd87c40d1</id>
+                        <number>2.1</number>
+                        <module_fk>3b8b73e9-ee81-4934-9660-33a19881be91</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>11df73f4-7b26-4cf1-a9cd-0e88d2a15c28</id>
+                              <number>09-05-00058-m2.1m-14-01</number>
+                              <name>Грамматический материал</name>
+                              <developer></developer>
+                              <recomm_minutes>5</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>2b0b5e35-842e-e92a-3075-90e12eda5900</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                    <UnitModule>
+                        <id>d51b9efa-ba8c-4254-8718-630cec8e733e</id>
+                        <number>2.2</number>
+                        <module_fk>344ee1b8-da31-4388-a947-3a2057ba6f31</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>0f450c77-8722-4141-a610-19482e7e7ccb</id>
+                              <number>09-05-00058-m2.2m-06-01</number>
+                              <name>Заполнение пропусков</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>6</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                          <EomTask>
+                              <id>14421dc0-59ac-4081-94d8-127442c04db3</id>
+                              <number>09-05-00058-m2.2m-06-03</number>
+                              <name>Заполнение пропусков</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>5</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>ff5c8d52-d9e0-8e78-cb9c-92bb35e46dd0</id>
+                <unit_fk>678263a6-9ac5-4007-af57-e0434c4acf5e</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>07074ce5-8a86-45cd-854a-5860229cd07b</id>
+                        <number>3.3</number>
+                        <module_fk>86278196-31d8-4bf9-9f96-e5364d16de17</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>d4cca3ae-aad6-435d-9c21-b497785291e9</id>
+                              <number>09-05-00058-m3.3m-05-01</number>
+                              <name>True False Not stated</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>10</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>8d6b75f1-9f70-5556-c2e8-d6aa077866ee</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+      </RequestUnits>  
+      
+    </TsokRequest>

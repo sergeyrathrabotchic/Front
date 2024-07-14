@@ -1,0 +1,333 @@
+<TsokRequest >
+      <id>59a38e2e-0996-45d3-86e4-671d4c4ae15a</id>
+      <fill_datetime>2021-10-29 00:00:00</fill_datetime>
+      <number>09-08-00370</number>
+      <edu_levels_fk>92cb00cf-aec4-4370-be86-e4122ec96322</edu_levels_fk>
+      <subject_fk>7d019fd6-7ced-441e-9223-103b2817c407</subject_fk>
+      <class_number>8</class_number>
+      <classes_fk>980c78c7-cd9e-4abd-a87e-1862070b3802</classes_fk>
+      <lesson_number_fk>3bce78a2-6023-8035-5ebb-f099db013529</lesson_number_fk>
+      <lesson_topic_fk>e2c9e6a2-83de-f0d5-dc42-6f7309a8c9f6</lesson_topic_fk>
+      <study_level_fk>6355e5a8-9d09-4746-be8e-eae7349fde6e</study_level_fk>
+      <lesson_type_fk>787a6960-b43b-603f-4c5e-a20fd77ebb7f</lesson_type_fk>
+      <ovz_type_fk></ovz_type_fk>
+      <keywords>ecology, nature, environment, values</keywords>
+      <short_description>Урок по предмету "Английский язык" для 8 класса по теме "Природа.  Проблемы экологии. Защита окружающей среды. Погода.  Окружающий мир. Природа как ценность, объект красоты"; Комбинированный урок. На уроке предусмотрено использование следующих типов электронных образовательных материалов: "Галерея изображений (группа изображений по одной тематике)", "Самостоятельная работа", "Самостоятельная работа", "Чек-лист", "Самостоятельная работа".</short_description>
+      <youwillknow>о природе и её ценностях; о стихийных бедствиях </youwillknow>
+      <youwilllearn>говорить о стихийных бедствиях; читать и говорить о природных ценностях</youwilllearn>  
+      <author>Игитханян А. П (Авторский коллектив по английскому языку)</author>
+      
+      <BasicConcepts>
+        
+           <basic_concept>
+             <id>c1960b17-37de-6b8f-a442-518642749181</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>25f6db23-1136-2d87-ae46-fec539a2f9b2</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>acd35ebc-7e06-00ce-ab08-1af7cce3d0eb</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>41db7682-d8c8-0bcb-6dcf-094706b4abfa</id>
+           </basic_concept>
+        
+      </BasicConcepts>
+      
+      <RequestUnits>
+            <RequestUnit>
+                <id>099dff3c-a99a-93d9-8df8-56e5e610006b</id>
+                <unit_fk>9270d4ad-5a92-4b4b-acbf-d8ae6457440f</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>eda5d063-950d-447c-8089-61105fecb976</id>
+                        <number>1.1</number>
+                        <module_fk>ed1bba8e-c04d-4baa-a693-04f1a9c6363e</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>0256febd-8a94-4d63-b0c3-5d136da49718</id>
+                              <number>09-08-00370-m1.1m-43-01</number>
+                              <name>Nature_values_photos</name>
+                              <developer></developer>
+                              <recomm_minutes>12</recomm_minutes>
+                              <source_list>https://www.pexels.com/photo/person-walking-between-green-forest-trees-15286/
+https://www.pexels.com/photo/people-surfing-on-sea-waves-4319752/
+https://www.pexels.com/photo/photo-of-pod-of-dolphins-2422915/</source_list>
+                              <eom_type_fk>c3d4602c-3ae8-2e5d-b7b2-0383fc1b801d</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                    <UnitModule>
+                        <id>2d23b02f-ceb9-423a-8fef-88b5a66a8b5f</id>
+                        <number>1.2</number>
+                        <module_fk>d53d9242-5cdb-4f18-ac36-3102cc83c58b</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>8a4de9b7-387d-4b20-8f87-f15a44c0693e</id>
+                              <number>09-08-00370-m1.2m-06-01</number>
+                              <name>Natural disasters_sentence completion</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>15</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>1b8d7130-2676-5cb4-19f3-3b7e12e5a11b</id>
+                <unit_fk>a7c523f6-0a0c-49f2-a754-a42f7777494d</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>d88f19b2-1920-47f3-9bd0-34179de1aec7</id>
+                        <number>2.1</number>
+                        <module_fk>3b8b73e9-ee81-4934-9660-33a19881be91</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>dcb0c57e-f8fd-4af3-8efc-0f65be13f1c1</id>
+                              <number>09-08-00370-m2.1m-06-01</number>
+                              <name>Nature and values_reading</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>13</recomm_minutes>
+                              <source_list>адаптировано: https://www.wwf.org.uk/what-we-do/valuing-nature</source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>73e7347c-c7fb-c4a1-97dc-7a46dc99e7d1</id>
+                <unit_fk>774efba2-9434-4edc-ab36-a3461005b7cf</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>b6f2249c-ca01-4c7b-88ff-d8a2f303cf24</id>
+                        <number>5.1</number>
+                        <module_fk>0ba5a37c-0c89-44ef-956a-8b02c9925da9</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>98cdca61-e43f-4b77-85d6-b072795582dd</id>
+                              <number>09-08-00370-m5.1m-10-01</number>
+                              <name>Nature and values_checklist</name>
+                              <developer></developer>
+                              <recomm_minutes>5</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>9829a5a9-584a-36e6-e580-43bd472320a2</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                    <UnitModule>
+                        <id>68aecbbf-dd3c-4335-ae40-6e402fa6a400</id>
+                        <number>5.2</number>
+                        <module_fk>4c8b0f9a-1cc1-4acd-9d79-19820e61a0ae</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>49d853f8-09ee-4f6d-b967-e2c21fb6e3ba</id>
+                              <number>09-08-00370-m5.2m-06-01</number>
+                              <name>Nature and values_Hometask </name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>3</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+      </RequestUnits>  
+      
+    </TsokRequest>

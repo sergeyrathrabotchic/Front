@@ -1,0 +1,304 @@
+<TsokRequest >
+      <id>0dcd82a1-5901-4154-b4eb-eec1fb2c92c0</id>
+      <fill_datetime>2021-09-27 00:00:00</fill_datetime>
+      <number>09-05-00036</number>
+      <edu_levels_fk>92cb00cf-aec4-4370-be86-e4122ec96322</edu_levels_fk>
+      <subject_fk>7d019fd6-7ced-441e-9223-103b2817c407</subject_fk>
+      <class_number>5</class_number>
+      <classes_fk>711f6fdb-8c69-40ce-8f17-81aa95ac7945</classes_fk>
+      <lesson_number_fk>5f9116e1-0b3c-dd6c-4019-d8e109b582a4</lesson_number_fk>
+      <lesson_topic_fk>7cf40015-3bfb-ab7c-ddc0-8742a59a9674</lesson_topic_fk>
+      <study_level_fk>6355e5a8-9d09-4746-be8e-eae7349fde6e</study_level_fk>
+      <lesson_type_fk>bb7b58f3-c4d8-c883-d7c0-a16908bf3337</lesson_type_fk>
+      <ovz_type_fk></ovz_type_fk>
+      <keywords>types of sport, my friends, to play, to do a sport, to go, sports activities, to watch sports, healthy lifestyle</keywords>
+      <short_description>Урок по предмету "Английский язык" для 5 класса по теме "Спорт, виды спорта, соревнования, выдающиеся спортсмены  Мои друзья. Спорт"; Урок освоения новых знаний и умений. На уроке предусмотрено использование следующих типов электронных образовательных материалов: "Самостоятельная работа", "Диагностическая работа", "Самостоятельная работа", "Самостоятельная работа", "Самостоятельная работа", "Самостоятельная работа", "Подкасты", "Диагностическая работа".</short_description>
+      <youwillknow>Как называются основные виды спорта; Какие глаголы используются в английском для разных видов спорта</youwillknow>
+      <youwilllearn>Рассказывать о своих любимых видах спорта; Задавать вопросы своим друзьям по поводу занятий спортом </youwilllearn>  
+      <author>Смирнова Н. А (Авторский коллектив по английскому языку)</author>
+      
+      <BasicConcepts>
+        
+      </BasicConcepts>
+      
+      <RequestUnits>
+            <RequestUnit>
+                <id>fcc6e613-e483-dba8-370f-5ea734d81a4c</id>
+                <unit_fk>678263a6-9ac5-4007-af57-e0434c4acf5e</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>c220a74a-5ad7-40b8-96f7-f7f808cfee84</id>
+                        <number>3.1</number>
+                        <module_fk>b1dd8624-7d9b-4aae-87f8-aaa7374ca8a9</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>5e61f118-5f25-4e0b-b57a-088bc43641de</id>
+                              <number>09-05-00036-m3.1m-06-01</number>
+                              <name>Построение вопросов для интервью</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>10</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>5e32b29d-10e4-c488-943c-52f284057f46</id>
+                <unit_fk>9270d4ad-5a92-4b4b-acbf-d8ae6457440f</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>8ab50873-2621-45d3-8e60-2e479a0f0f95</id>
+                        <number>1.1</number>
+                        <module_fk>ed1bba8e-c04d-4baa-a693-04f1a9c6363e</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>980d1447-34cc-4dca-9788-321c1404dc17</id>
+                              <number>09-05-00036-m1.1m-20-02</number>
+                              <name>Картинки с видами спорта и названиями</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>4</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>8b75cc22-9458-1abc-85d8-a2e34ef6bd91</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                    <UnitModule>
+                        <id>fd4343d1-a662-4bc8-8098-a6556aabd592</id>
+                        <number>1.3</number>
+                        <module_fk>8d5b27ce-0fdb-4d88-8f66-9df1ca62977d</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>2110f221-0ba8-4ca2-8926-37b963da767d</id>
+                              <number>09-05-00036-m1.3m-06-01</number>
+                              <name>Выбор правильного написания вида спорта</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>7</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>42220ea0-90c3-7e65-f9e8-a00fb647aa08</id>
+                <unit_fk>a7c523f6-0a0c-49f2-a754-a42f7777494d</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>fbb5c5f5-6337-494a-bc90-9d917b041d03</id>
+                        <number>2.2</number>
+                        <module_fk>344ee1b8-da31-4388-a947-3a2057ba6f31</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>8dc1701d-8221-45b2-947a-407fd4b030c7</id>
+                              <number>09-05-00036-m2.2m-06-01</number>
+                              <name>Задания по аудированию на тему занятий спортом</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>7</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                          <EomTask>
+                              <id>18874ea5-4ef3-4568-aa1c-2b5ea2548dc2</id>
+                              <number>09-05-00036-m2.2m-27-01</number>
+                              <name>Аудирование по теме "Спорт"</name>
+                              <developer></developer>
+                              <recomm_minutes>4</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>c1bdeb7c-f7be-2221-d428-9abbbf854613</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+      </RequestUnits>  
+      
+    </TsokRequest>

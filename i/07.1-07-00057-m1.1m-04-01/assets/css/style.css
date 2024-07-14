@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    /*background-image: url("../images/fon2.jpg");*/
+    min-width: 1100px;
+}
+.zogolovok {
+    /*margin-left: 5%;*/
+    text-align: center;
+}
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.imges {
+    margin-top: 40px;
+    text-align: center;
+}
+.targets{
+    margin-top: 10px;
+}
+
+
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+    }
+}
+.buttonNews {
+    border: none;
+    background-color: #1c8203;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 45px;
+}
+.boxNews {  
+    display: grid;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    grid-template-rows: 3rem 3rem 3rem 3rem;
+    grid-template-columns: 45% 75%;
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 70%; 
+}
+
+@media (max-width: 600px){
+    .boxNews {
+        grid-template-rows: 3rem 3rem 1rem 3rem 3rem 3rem 3rem 3rem;
+        grid-template-columns: 250px;
+        row-gap: 30px;
+        width: 30%;
+    }
+}
+.buttonadmin {
+    border: none;
+    background-color: #1c8203;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 45px;
+}
+.inactive {
+    background-color: #747674;
+}
+
+.textadmin{
+    border-radius: 8px;
+    border: 2px solid #d6d1d1;
+}
+.fon {
+    width: 90%;
+    margin: 5%;
+    background-color: #ffffff;
+}
+
+.vectorGraphics {
+    position: absolute;
+    z-index: 1;
+    padding: 1px;
+    left: 40%;
+    top: 267px;
+    background-color: #c177ae;
+
+}
+.vectorGraphicsText{
+    display:none;
+}
+
+.vectorGraphics:hover + .vectorGraphicsText{
+    /*background-color:  #1da051;*/
+    display: block;
+}
+
+.target {
+    height: 120px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid rgb(28, 130, 3);
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.targetText {
+    height: 100px;
+    width: 300px;
+    margin-top: 16px;
+}
+
+.targetTextTransfer{
+    height: 70px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 3px solid rgb(28, 130, 3);
+}
+
+.targets {
+    margin-left: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    align-items: center;
+}
+.mainblok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 82%;
+    margin-left: 9%;
+    background-color: #ffffff;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img2 {
+    height: 120px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.blok1 {
+    width: 350px;
+    min-width: 250px;
+    /*margin-left: 5%;*/
+}
+
+.minStrelka {
+    margin-left: 45px;
+}
+
+.blok2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: -192px;
+    
+    /*width: 370px;
+    min-width: 350px;*/
+    /*margin-left: 5%;*/
+}
+
+.blok3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-top: 170px;
+    /*margin-left: 5%;*/
+}
+
+.texteria {
+    resize: vertical;
+    margin-top: 12.5px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 250px;
+    border: 3px solid rgb(28, 130, 3);
+}
+
+.oval {
+    width: 200px; 
+    height: 100px;
+    background: #9CD6C0;
+    border-radius: 100px/50px;
+    text-align: center;
+    border: 3px solid rgb(28, 130, 3);
+}
+
+.strelka {
+    transform: rotate(90deg);
+    margin-left: 40px;
+}
+.date {
+    margin-left: 115px;
+}
+
+.strelkaRigth {
+    transform: rotate(329deg);
+    margin-top: -31px;
+    margin-left: 55px;
+}
+
+.questions {
+    width: 150px;
+    text-align: center;
+    height: 60px;
+    padding: 5px;
+    background: #3185bd;
+    margin-left: 20px;
+}
+
+.questionsLong {
+    width: 350px;
+}
+
+.questionsCenter {
+    margin-top: -8px;
+}
+
+.questionsRigth {
+    margin-top: -19px;
+    margin-left: 20px;
+}
+.oval2 {
+    width: 250px; 
+    height: 150px;
+    background: #9CD6C0;
+    border-radius: 250px/150px;
+    text-align: center;
+    border: 3px solid rgb(28, 130, 3); 
+}
+
+

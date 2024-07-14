@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="partial.css" type="text/css"/>
+</head>
+<body>
+    <div class="container-xxl">
+       
+        
+        <div class="main">
+            <h1 class="zogolovok fontFigma">Кто и как управлял Древним Римом?</h1>
+            <h3 style="margin-left: 10px;">Перед вами опорная схема, отражающая систему управления государством в царский период. Рассмотрите её
+                внимательно. Отвечая на вопросы, вам надо заполнить пропущенные поля в этой схеме. Нажав на элемент
+                схемы левой кнопкой мышки, вы увидите дополнительную информацию, которая поможет вам при
+                выполнении задания. С помощью соответствующего параграфа вашего учебника и информации всплывающих
+                окон заполните пропущенные поля в этой схеме.</h3> 
+        
+                <div class="mainblok">
+                    <div class="img">
+                        <h3 id = "click1"  class="questions" style="width: 300px;height: 80px;" onclick="onclik('#click1','#history1')">Жители древнего рима</h3>
+                        <div style="display: flex;margin-top: -14px;">
+                            <!--<img class="strelkaLeft" src="assets/images/strelka.png" alt="">-->
+                            <img style="margin-right: 150px;" src="assets/images/strelka.png" alt="">
+                            <img src="assets/images/strelka.png" alt="">
+                            
+                            <!--<img class="strelkaRigth" src="assets/images/strelka.png" alt="">-->
+                        </div>
+                        <div style="display: flex">    
+                            <!--<h3 class="questions questionsLeft">Что я уже знаю по теме</h3>-->
+                            <h3 id = "click2" style="margin-right: 150px;" class="questions questionsCenter" onclick="onclik('#click2','#history2')">Патриции</h3>
+                            <h3 id = "click3" class="questions questionsCenter" onclick="onclik('#click3','#history3')">Плебеи</h3>
+                            <!--<h3 class="questions questionsRigth">О чём бы мне хотелось узнать ещё</h3>-->
+                        </div>
+                        <div style="display: flex"> 
+                            <img style="margin-top: -15px;margin-left: -195px;" src="assets/images/strelka.png" alt="">
+                            <img class="strelkaRigth" src="assets/images/strelka.png" alt="">
+                        </div>  
+                        <div style="display: flex">
+                            <h3 id = "click4" style="margin-left: -90px;margin-right: 50px;height: 80px;" class="questions questionsCenter"  onclick="onclik('#click4','#history4')">Народное собрание</h3>
+                            <h3 id = "click5"  class="questions questionsCenter" onclick="onclik('#click5','#history5')">Сенат</h3>
+                        </div>  
+                        <div style="display: flex">
+                            <img style="margin-top: -14px;" src="assets/images/strelka.png" alt="">
+                            <h3 id = "click8" style="margin-left: 105px;margin-top: 20px;" class="questions questionsCenter" onclick="onclik('#click8','#history8')">Ромул</h3>
+                        </div>  
+                        <div style="display: flex">
+                            <h3 id = "click6" style="margin-left: 170px;" class="questions questionsCenter" onclick="onclik('#click6','#history6')">Царь</h3>
+                            <h3 id = "click9" style="margin-left: 40px;height: 80px;" class="questions questionsCenter" onclick="onclik('#click9','#history9')">Нума Помпилий</h3>
+                            <h3 id = "click12" style="margin-left: 40px;height: 80px;" class="questions questionsCenter" onclick="onclik('#click12','#history12')">Тарквиний Старший</h3>
+                        </div> 
+                        <div style="display: flex;margin-top: 45px;">
+                            <h3 id = "click7" style="margin-left: 170px;" class="questions questionsCenter" onclick="onclik('#click7','#history7')">Ликторы</h3>
+                            <h3 id = "click10" style="margin-left: 40px;" class="questions questionsCenter" onclick="onclik('#click10','#history10')">Тул Гостилий</h3>
+                            <h3 id = "click13" style="margin-left: 40px;height: 80px;" class="questions questionsCenter" onclick="onclik('#click13','#history13')">Сервий Туллий</h3>
+                        </div>
+                        <div style="display: flex;margin-top: 40px;">
+                            <h3 id = "click11" style="margin-left: 420px;" class="questions questionsCenter" onclick="onclik('#click11','#history11')">Анк Морций</h3>
+                            <h3 id = "click14" style="margin-left: 40px;height: 80px;" class="questions questionsCenter" onclick="onclik('#click14','#history14')">Тарквиний Гордый</h3>
+                        </div>     
+                    </div>
+                    </div>
+                </div>
+                    <div style="display: none;" id="history1">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+                            <!--<img style="height: 100px;" src="assets/images/strelka4.png" alt="">-->
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Основными занятиями римлян были
+                                    земледелие, скотоводство, ремесло, торговля, участие
+                                    в политике.
+                                    В Древнем Риме выращивали ячмень, пшеницу,
+                                    виноград, лён. Римляне разводили быков, свиней,
+                                    коней, ослов.
+                                </p>
+                                <form enctype="" method="post" action="" name="work1">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >На скольких холмах располагается Рим?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r"></p><p  id="ot"></p>
+                                    <!--<p class="textAll textform" >latest style -</p>
+                                    <input type="text" name="answer2" class="textadmin" placeholder="Введите ответ на второй вопрос" required>
+                                    <p  id="r2" ></p><p  id="ot2" ></p>-->
+                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check1()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img1.jpg.crdownload" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history1')"> 
+                                <p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>
+                        </div>
+                    </div>
+        
+        
+                    <div style="display: none;" id="history2">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    В переводе с латинского – «потомки отцов»
+                                    Патриции – привилегированное сословие в Риме. В его
+                                    состав входили потомки первых переселенцев.
+                                    Только патриции могли владеть землей, участвовать в
+                                    народном собрании, воевать.
+                                </p>
+                                <form enctype="" method="post" action="" name="work2">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Какой предмет одежды римляне носили поверх туники?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r2"></p><p  id="ot2"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check2()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img2.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history2')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history3">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    В переводе с латинского – «наполнять».
+                                    Плебеи – это переселенцы из других областей Италии.
+                                    Изначально у них не было никаких гражданских прав.
+                                    Но однажды царь Сервий Тулий изменил этот порядок
+                                    вещей в их пользу. После этого плебеи начали
+                                    отстаивать свои права.
+                                </p>
+                                <form enctype="" method="post" action="" name="work3">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Какой предмет одежды был основным для плебеев?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r3"></p><p  id="ot3"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check3()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img3.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history3')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history4">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Народное собрание Рима состояло из мужчин-
+                                    патрициев. Они принимали решения о вступлении в
+                                    войну и заключении мира, избирали царя.
+                                </p>
+                                <form enctype="" method="post" action="" name="work4">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Как вы думаете, могли ли женщины
+                                        участвовать в Народном собрании?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r4"></p><p  id="ot4"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check4()">
+                            </div>
+                            
+                            <!--<img style="height: 500px;" src="assets/images/img1.jpg.crdownload" alt="">-->
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history4')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history5">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    В первые века существования Древнего Рима одним из
+                                    органов управления обществом был совет старейшин – глав римских
+                                    родов. На этом совете решались основные вопросы, возникающие в
+                                    отношениях между родами. В дальнейшем совет получил название
+                                    Сената. Старейшины родов входили в Сенат – совет старейшин,
+                                    составленный, по преданию, Ромулом из трёхсот сенаторов. В
+                                    царскую эпоху Сенат был совещательным органом управления при
+                                    царе.
+                                </p>
+                                <form enctype="" method="post" action="" name="work5">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Что означает аббревиатура SPQR? (приведите
+                                        перевод на русском языке)</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r5"></p><p  id="ot5"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check5()">
+                            </div>
+                            
+                            <img style="height: 300px;" src="assets/images/img5.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history5')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history6">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Цари Древнего Рима не менее легендарны, чем
+                                    основание Рима. Их правления описаны в «Истории от
+                                    основания города» древнеримским учёным Титом
+                                    Ливием. Царь в Древнем Риме одевался в пурпурную
+                                    тогу, носил золотую диадему на голове, а в руках
+                                    держал скипетр с орлом. Также его сопровождали 12
+                                    ликторов. Древние римляне избирали своих царей.
+                                    После смерти царя Сенат выбирал достойного
+                                    гражданина и предлагал его кандидатуру Народному
+                                    собранию. Не менее важными в выборе царя были
+                                    результаты гаданий.
+                                </p>
+                                <form enctype="" method="post" action="" name="work6">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Кто был первым царём Рима?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r6"></p><p  id="ot6"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check6()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img6.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history6')"> 
+                                <p class="text" style="    margin-left: 200px;">Андреа Риччо «Тит Ливий» (бюст) конец XV века</p>
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history7">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Чтобы выделяться среди других римлян, Ромул
+                                    решил ходить в сопровождении охраны. Она состояла
+                                    из 12 ликторов – воинов, носивших с собой связку
+                                    прутьев и топор. Этот атрибут назывался фасции. Он
+                                    был символом того, что ликтор может выпороть
+                                    провинившегося или отрубить голову преступнику.
+                                </p>
+                                <form enctype="" method="post" action="" name="work7">
+                                <div class="boxNews" style="grid-template-rows: 6rem 3rem 3rem 3rem;">
+                                    <p class="textAll textform" >Введите название загадочного народа,
+                                        жившего по соседству с римлянами, у которого была
+                                        перенята эта традиция.</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r7"></p><p  id="ot7"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check7()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img7.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history7')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history8">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    По словамТита Ливия, Ромул дал римлянам
+                                    законы, так как считал, что именно они могут
+                                    объединить народ. Теперь все студенты юридических
+                                    факультетов во всём мире изучают древнее римское
+                                    право как основу юриспруденции.
+                                </p>
+                                <form enctype="" method="post" action="" name="work8">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Сколько царей, по легенде, правили Римом?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r8"></p><p  id="ot8"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check8()">
+                            </div>
+                            
+                            <img style="height: 300px;" src="assets/images/img8.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history8')"> 
+                                <p class="text" style="    margin-left: 200px;">Жан-Огюст-Доминик Энгр. «Ромул,
+                                    победивший Акрона». 1812 г.</p>
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history9">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Нума Помпилий, который стал царём после
+                                    Ромула, построил множество храмов. Например, по
+                                    свидетельству Тита Ливия, он основал храм дверей и
+                                    входов в честь Януса, двуликого божества. Когда двери
+                                    храма были закрыты, римляне не вели никаких войн,
+                                    открытые двери говорили о войне. Также Нума
+                                    Помпилий разделил год на 12 месяцев. Римляне
+                                    первыми стали использовать календарь.
+                                </p>
+                                <form enctype="" method="post" action="" name="work9">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Какой календарь сейчас используется в нашей
+                                        стране?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r9"></p><p  id="ot9"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check9()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img9.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history9')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history10">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Тулл Гостилий, третий царь Древнего Рима,
+                                    начал войну с городом Альба-Лонга. По легенде, исход
+                                    войны должно было решить сражение трёх воинов с
+                                    каждой противоборствующей стороны. Римляне
+                                    отправили биться братьев Горациев. На картине
+                                    французского художника Жака Луи Давида вы видите
+                                    благословение отцом своих сыновей перед сражением,
+                                    в котором все воины, кроме одного, погибли. Один из
+                                    братьев Горациев определил победу в пользу Рима.
+                                </p>
+                                <form enctype="" method="post" action="" name="work10">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Кто был, по легенде, отцом основателя Альба-
+                                        Лонги?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r10"></p><p  id="ot10"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check10()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img10.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history10')"> 
+                                <p class="text" style="    margin-left: 200px;">Клятва Горациев. Жак Луи Давид
+                                    (1748–1825 гг.)</p>
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history11">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Текст: Анк Марций, по преданию, четвёртый царь
+                                    Древнего Рима, основал порт Остию в устье реки Тибр.
+                                    Этот порт стал воротами для торговли Рима со всем
+                                    миром.
+                                </p>
+                                <form enctype="" method="post" action="" name="work11">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >В какое море впадает река Тибр?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r11"></p><p  id="ot11"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check11()">
+                            </div>
+                            
+                            <img style="height: 300px;" src="assets/images/img11.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history11')"> 
+                                <p class="text" style="    margin-left: 200px;">Тулл Гостилий и Анк Марций</p>
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history12">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Тарквиний Старший покорил сабинян и латинов.
+                                    Царь построил каменную стену вокруг Рима.
+                                </p>
+                                <form enctype="" method="post" action="" name="work12">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Последние три царя были выходцами из
+                                        загадочного народа, соседей римлян. Введите название
+                                        этого народа.</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r12"></p><p  id="ot12"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check12()">
+                            </div>
+                            
+                            <img style="height: 500px;" src="assets/images/img12.jpg" alt="">
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history12')"> 
+                                <p class="text" style="    margin-left: 200px;">Тарквиний Древний вопрошает Атта
+                                    Навия. Итальянский художник С. Риччи (1659–1734гг.)</p>
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history13">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Этот царь провёл перепись населения и
+                                    разделил римлян на пять групп в соответствии с их
+                                    положением в обществе. Теперь самые знатные и
+                                    богатые граждане сражались в первых рядах на войне.
+                                    А плебеи получили возможность защищать свою страну. 
+                                </p>
+                                <form enctype="" method="post" action="" name="work13">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Какая категория населения составляла войско
+                                        Рима до правления Сервия Туллия?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r13"></p><p  id="ot13"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check13()">
+                            </div>
+                            
+                            <!--<img style="height: 500px;" src="assets/images/img1.jpg.crdownload" alt="">-->
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history13')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+                    <div style="display: none;" id="history14">
+                        <div style="display: flex;margin: 10px;justify-content: center;">
+        
+                            <div>
+                                <p style="width: 400px;margin-left: 10px;">
+                                    Тарквиний Гордый, последний царь Древнего
+                                    Рима, убил своего предшественника и стал жестоким
+                                    правителем. Своим поведением он вызвал
+                                    недовольство римлян, которые решили прогнать этого
+                                    царя. Было это в 509
+                                    республикой.
+                                </p>
+                                <form enctype="" method="post" action="" name="work14">
+                                <div class="boxNews">
+                                    <p class="textAll textform" >Посчитайте, сколько лет длилось правление
+                                        семи римских царей?</p>
+                                    <input type="text" name="answer1" class="textadmin" placeholder="Введите ответ" required>
+                                    
+                                    <p   id="r14"></p><p  id="ot14"></p>
+                                    
+                                </div>
+                                </form>
+                                <input type="submit" class="buttonadmin" name="Проверить ответы" value="Проверить ответ"  onclick="check14()">
+                            </div>
+                            
+                            <!--<img style="height: 500px;" src="assets/images/img1.jpg.crdownload" alt="">-->
+                
+                        </div>
+                        
+                        <div style="display: flex;justify-content: center;">
+                                <img style="width: 250px;height: 60px;" src="assets/images/beck.png" alt="" onclick="beck('#history14')"> 
+                                <!--<p class="text" style="    margin-left: 200px;">Статуя римлянина в тоге.</p>-->
+                        </div>
+                    </div>
+        
+        
+        
+        
+        
+                    <!--<div class="blok3">
+                        <h3 id="history1" class="oval2"><br><br>Как Ганнибал добрался из Северной Африки в Италию?</h3>
+                        <h3 id="history2" class="oval2"><br><br>География Средиземного моря.</h3>
+                        <h3 id="history3" class="oval2"><br><br>Как Рим завоевал всю Италию?</h3>
+                        <h3 id="history4" class="oval2"><br><br>Как происходила битва при Каннах, кто в ней победил?</h3>
+                        <h3 id="history5" class="oval2"><br><br>На какую хитрость пошёл римский полководец Сципион
+                            ради защиты своего города?</h3>
+                        <h3 id="history6" class="oval2"><br><br>Устройство римской армии, её боеспособность.</h3>
+                    
+                       <img id="history1" class="img2" src="assets/images/piter.jpg" alt="" >
+                        <img id="history2" class="img2" src="assets/images/parish.jpg" alt="" >
+                        <img id="history3" class="img2" src="assets/images/moscva.jpg" alt="" >
+                        <img id="history4" class="img2" src="assets/images/rim.jpg" alt="" >
+                        <img id="history5" class="img2" src="assets/images/afin.jpg" alt="" >
+                    </div>-->
+                </div>
+                 
+                
+            </div>
+            <script type="text/javascript" src="assets/js/perehod.js"></script>
+            <script type="text/javascript" src="assets/js/check.js"></script>
+            <script type="text/javascript" src="assets/js/target.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

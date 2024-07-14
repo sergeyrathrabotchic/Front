@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="partial.css" type="text/css"/>
+</head>
+<body>
+    <div class="container-xxl">
+        <h1 class="zogolovok fontFigma">Установление соответствия (связей)</h1>
+        <!--<div style="text-align: center;">
+        <input type="submit" class="buttonadmin" name="Вариант 1" value="Вариант 1" id = "variant1" onclick="variant('#variant1')">
+        <input type="submit" class="buttonadmin inactive" name="Вариант 2" value="Вариант 2" id = "variant2" onclick="variant('#variant2')"> 
+        </div>-->
+    
+        <div id = var1>
+            <!--<div class="text fontFigma" style="height: 50px;">
+            <h2>Вариант 1</h2>
+            </div> -->
+    
+            <div class="text fontFigma" style="height: 50px;">
+                <h3>
+                    Where can you hear these announcements? Match the announcements with
+                    the places.
+                </h3>
+            </div>
+            <br>
+    
+            <div class="mainblok">
+                <div class="blok1">
+                    <div class="targetTextTransfer" id = "airport" ><p class="fontFigma">the airport</p></div>
+                    <div class="targetTextTransfer" id = "station" ><p class="fontFigma">the railway station</p></div>
+                    <div class="targetTextTransfer" id = "train" ><p class="fontFigma">the train</p></div>
+                    <!--<div class="targetTextTransfer" id = "Paragraph" ><p class="fontFigma">Абзац</p></div>
+                    <div class="targetTextTransfer" id = "Offer" ><p class="fontFigma">Предложение</p></div>-->
+                </div>
+                <div class="blok2">
+                    <div class="main">
+                        <div class="target" id = "target3" ></div>
+                        <img src="assets/images/folse.svg" id = "folse3" alt="work" >
+                        <img src="assets/images/true.png" class="true"  id = "true3" alt="work">
+                    </div> 
+                    <div class="main">
+                        <div class="target" id = "target2" ></div>
+                        <img src="assets/images/folse.svg" id = "folse2" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true2" alt="work">
+                    </div>
+                    <div class="main">
+                        <div class="target" id = "target1" ></div>
+                        <img src="assets/images/folse.svg" id = "folse1" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true1" alt="work">
+                    </div>
+                    <!--<div class="main">
+                        <div class="target" id = "target4" ></div>
+                        <img src="assets/images/folse.svg" id = "folse4" alt="work" >
+                        <img src="assets/images/true.png"  class="true" id = "true4" alt="work">
+                    </div>
+                    <div class="main">
+                        <div class="target" id = "target3" ></div>
+                        <img src="assets/images/folse.svg" id = "folse5" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true5" alt="work">
+                    </div>-->
+                </div>
+                <div class="blok3">
+                    <textarea id="text3" class="texteria">Attention, passengers! This is your conductor speaking. We have a very full train today, so please don’t block the doors. We will be moving shortly. I'll repeat. Please, stay clear of the doors. The doors are closing.</textarea>
+                    <textarea id="text2" class="texteria">This is a platform announcement for the 11.2 to Tunbridge Wells calling at Tower Bridge, Sevenoaks, High Brooms, Tonbridge and Tunbridge Wells. This train is delayed for 5 minutes and will depart from platform 4 The next train arriving at Platform 1 is the train to Brighton.</textarea>
+                    <textarea id="text1" class="texteria">Attention passengers of British Airways, flight 3456 to Moscow. The departure gate has been changed. The flight will now be leaving from Gate 3 Please go to the gate immediately. Your flight is ready to board.</textarea>      
+                    <!--<textarea id="text4" class="texteria">Часть текста, находящаяся между двумя символами конца абзаца, при этом допускаются пустые абзацы</textarea>
+                    <textarea id="text3" class="texteria">Произвольная последовательность символов между левой и правой границами абзаца.</textarea>-->
+                   
+                </div>
+            </div>
+        </div>
+    
+        <div id = var2>
+            <div class="text fontFigma" style="height: 50px;">
+                <h2>
+                    Вариант 2
+                </h2>
+            </div> 
+        
+            <div class="text fontFigma" style="height: 50px;">
+                <h3>
+                    Составь верные по смыслу предложения.
+                </h3>
+            </div>
+            <br>
+    
+            <div class="mainblok">
+                <div class="blok1">
+                    <div class="targetTextTransfer" id = "selectionWord" ><p class="fontFigma">Для выделения слова</p></div>
+                    <div class="targetTextTransfer" id = "selectionProposal" ><p class="fontFigma">Для выделения предложения</p></div>
+                    <div class="targetTextTransfer" id = "selectionParagraph" ><p class="fontFigma">Для выделения абзаца</p></div>
+                    <div class="targetTextTransfer" id = "selectionPicture" ><p class="fontFigma">Для выделения рисунка</p></div>
+                    <div class="targetTextTransfer" id = "remove" ><p class="fontFigma">Чтобы убрать выделение фрагмента текста</p></div>
+                </div>
+                <div class="blok2">
+                    <div class="main">
+                        <div class="target" id = "target10" ></div>
+                        <img src="assets/images/folse.svg" id = "folse10" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true10" alt="work">
+                    </div> 
+                    <div class="main">
+                        <div class="target" id = "target6" ></div>
+                        <img src="assets/images/folse.svg" id = "folse6" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true6" alt="work">
+                    </div>
+                    <div class="main">
+                        <div class="target" id = "target9" ></div>
+                        <img src="assets/images/folse.svg" id = "folse9" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true9" alt="work">
+                    </div>
+                    <div class="main">
+                        <div class="target" id = "target7" ></div>
+                        <img src="assets/images/folse.svg" id = "folse7" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true7" alt="work">
+                    </div>
+                    <div class="main">
+                        <div class="target" id = "target8" ></div>
+                        <img src="assets/images/folse.svg" id = "folse8" alt="work" >
+                        <img src="assets/images/true.png" class="true" id = "true8" alt="work">
+                    </div>
+                </div>
+                <div class="blok3">
+                    <textarea id="text10" class="texteria">Нужно щёлкнуть мышью вне его (или нажать какую-либо служебную клавишу).</textarea>
+                    <textarea id="text6" class="texteria">Нужно навести указател мыши на любой символ этого структурного элемента и два раза щёлкнуть левой кнопкой мыши.</textarea>
+                    <textarea id="text9" class="texteria">Достаточно щёлкнуть по нему мышью.</textarea>
+                    <textarea id="text7" class="texteria">Нужно навести указатель мыши на любой символ этого структурного элемента, нажать клавишу Ctrl и щёлкнуть мышью.</textarea>
+                    <textarea id="text8" class="texteria">Нужно навести указатель мыши на полосу выделения рядом с этим структурным элементом и два раза щёлкнуть мышью.</textarea>
+                    
+                </div>
+            </div>                                                   
+        </div>
+        <script type="text/javascript" src="assets/js/target.js"></script>
+        <script type="text/javascript" src="assets/js/variant.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

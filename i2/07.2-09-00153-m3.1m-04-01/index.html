@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="partial.css" type="text/css"/>
+</head>
+<body >
+    <div class="container-xxl">
+        <div style="text-align: center;">
+            <img src="assets/images/karta.png" alt="">
+            <img id="raion2" style="z-index: -1;margin-left: -300px;margin-top: 190px;filter :opacity(0%)" src="assets/images/Selection.png" alt="">
+            <div style="margin-left: 750px;margin-top: -220px;z-index: 2;filter: opacity(100%);" class="box ">
+                <div class="box2" id="id1">1</div>
+                <div onmouseover="clickImg2 ('','','','','','')" onmouseout="clickImg ()" class="box2" id="id2">2</div>
+                <div class="box2" id="id3">3</div>
+                <div class="box2" id="id4">4</div>
+                <div class="box2" id="id5">5</div>
+                <div class="box2" id="id6">6</div>
+                <div class="box2" id="id7">7</div>
+                <div class="box2" id="id8">8</div>
+                <div class="box2" id="id9">9</div>
+                <div class="box2" id="id10">10</div>
+                <div class="box2" id="id11">11</div>
+                <div class="box2" id="id12">12</div>
+                <div class="box2" id="id13">13</div>
+                <div class="box2" id="id14">14</div>
+                <div class="box2" id="id15">15</div>
+                <div class="box2" id="id16">16</div>
+            </div>
+        </div>
+        <!--<img id="raion2" style="z-index: -1;margin-left: 370px;margin-top: -300px;/*filter :opacity(0%)*/" src="assets/images/raion2.png" alt="">-->
+
+
+
+        <!--<div style="margin-top: 10px;padding: 10px;height: 230px;background-color: #ffffff;text-align: center;">
+            
+            <div id="block1">
+                <h3 id="text1-1">
+                    Каковы были социально-экономические последствия второй промышленной революции?
+                </h3>
+            </div>
+            <div  id="block2">
+                <p style="display: none;filter:opacity(0%)" id="text2-1" class="fontZise" >
+                    Механизация трудоемких процессов: загрузка доменных печей, разливка чугуна. Благодаря изобретениям (вращающая печь-конвертор, прокатный станок и др.) началась выплавка сверхпрочного материала-стали.
+                </p>
+            </div>
+
+            
+            <div id="block3" style="display: flex;display: none;filter:opacity(0%)">
+                <img id="img3-1" style="height: 210px;" src="assets/images/img1.png" alt="">
+                <p id="text3-2" class="fontZise">
+                    Прототип двигателя внутреннего сгорания был сконструирован 1806 г. французскими братьями Джезофом и Клодом Ньепа, но не получил развития. Затем в течение 19в. шел процесс его усовершенствования. В начале 90-х г. XIX в.  немецким изобретателем Р. Дизелем был создан двигатель, получивший его имя - дизельный двигатель.
+                </p>
+            </div>
+
+            <div id="block4" style="display: flex;display: none;filter:opacity(0%)">
+                <img id="img4-1" style="height: 210px;" src="assets/images/img2.png" alt="">
+                <p id="text4-2" class="fontZise">
+                    Самолет американцев Уилбера и Орвилла Райт, за которыми призанется первенство в постройке самолета, совершившего успешный полет 17 декабря 1903 г.
+                </p>
+            </div>
+
+            <div id="block5" style="display: flex;display: none;filter:opacity(0%)">
+                <img id="img5-1" style="height: 210px;" src="assets/images/img3.png" alt="">
+                <p id="text5-2" class="fontZise">
+                    Первая гидроэлектростанция - Ниагарская ГЭС, 1895г.
+                    На смену каменному углю, доминирующему еще в конце XIXв., приходит нефть. Считается, что первую скважину для промышленной эксплуатации в 1858 г. построил американец Э. Дрейк.
+                    Пар в энергетической базе производства был вытеснен электричеством.                    
+                </p>
+            </div>
+
+            <div id="block6" style="display: flex;display: none;filter:opacity(0%)">
+                <div id="img6-1" class="img">
+                    <img style="height: 190px;" src="assets/images/img4.png" alt="">
+                    <p class="fontZise">Беспроводной телеграф А.С. Попова</p>
+                </div>
+                <div id="img6-2" class="img">
+                    <img style="height: 190px;" src="assets/images/img5.png" alt="">
+                    <p class="fontZise">Телефонный аппарат А.Белла</p>
+                </div>
+                <p id="text6-3" class="fontZise">
+                    В 1895 г. российским ученым А.С. Поповым был представлен первый в мире прибор радиоприемного устройства для реализации беспроводного телеграфа. Годом позже итальянец Г. Маркони представил её улучшенную модель.
+                    Первенство в изобретении телефона оспаривают три человека: итальянец А. Меуччи, немецкий физик Ф. Рейс, американец А. Белл. Именно Белл в 1878г. получил патент на это изобретение, которое в последующие годы, десятилетия будет усовершенствоваться.                    
+                </p>
+            </div>
+        </div>
+       
+
+        <div class="main">
+            <p class="fontZise" style="background-color: #408BFE;padding: 10px;border-radius: 10px;color: #ffffff;font-weight: 700;">
+                Вторая промышленная революция
+            </p>
+
+            <img src="assets/images/minLine.png" alt="">
+
+            <div class="img">
+                <img src="assets/images/bigLine.png" alt="">
+                <div style="display: flex;">
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img ">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                </div>-->
+<!--onmouseover="clickImg2 ('#img4-1','#text4-2','','','','#block4')" onmouseout="clickImg ()"-->
+
+                <!--<div style="display: flex;margin-left: 50px;">-->
+                    <!--<p onmouseover="clickImg2 ('#text2-1','','','','','#block2')" onmouseout="clickImg ()" class="fontZise text" >
+                        Технический переворот в металлургии
+                    </p>-->
+                    <!--<img onmouseover="clickImg2 ('#text2-1','','','','','#block2')" onmouseout="clickImg ()" src="assets/images/raion.png" alt="">
+                    <p onmouseover="clickImg2 ('#img3-1','#text3-2','','','','#block3')" onmouseout="clickImg ()" class="fontZise text" >
+                        Изменения в транспорте
+                    </p>
+                    <p onmouseover="clickImg2 ('#img5-1','#text5-2','','','','#block5')" onmouseout="clickImg ()" class="fontZise text" >
+                        Революция в энергетике
+                    </p>
+                    <p  onmouseover="clickImg2 ('#img6-1','#img6-2','#text6-3','','','#block6')" onmouseout="clickImg ()" class="fontZise text" >
+                        Появление новых средств связи 
+                    </p>
+                </div>
+
+                <div class="ukazatel" style="display: flex;margin-top: -18px;">
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img ">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                </div>
+                <img src="assets/images/bigLine.png" alt="">
+                <div style="display: flex;">
+                    <div class="img strelka2">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img ">
+                        <img src="assets/images/minLine.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                </div>
+
+
+                <div style="display: flex;margin-left: 100px;">
+                    <p onmouseover="clickImg2Bottom ('#text8-1','','','','','#block8')" onmouseout="clickImgBottom ()" class="fontZise text2" >
+                        Развитие такой формы организации капитала как акционирование
+                    </p>
+                    <p onmouseover="clickImg2Bottom ('#text9-1','','','','','#block9')" onmouseout="clickImgBottom ()" class="fontZise text2" >
+                        Новые формы организации хозяйственной деятельности - монополия 
+                    </p>
+                </div>
+                <div style="display: flex;margin-left: 500px;margin-top: -18px;">
+                    <div class="img strelka3" style="transform: rotate(20deg);">
+                        <img src="assets/images/line.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka3">
+                        <img src="assets/images/line.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka3">
+                        <img src="assets/images/line.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                    <div class="img strelka3" style="transform: rotate(340deg);">
+                        <img src="assets/images/line.png" alt="">
+                        <img class="ukazatel" src="assets/images/ukazatel.png" alt="">
+                    </div>
+                </div>
+
+                <div style="display: flex;margin-left: 440px;">
+                    <p onmouseover="clickImg2Bottom ('#text10-1','','','','','#block10')" onmouseout="clickImgBottom ()"  class="fontZise text3" >
+                        Трест
+                    </p>
+                    <p onmouseover="clickImg2Bottom ('#text11-1','','','','','#block11')" onmouseout="clickImgBottom ()" class="fontZise text3" >
+                        Синдикат 
+                    </p>
+                    <p onmouseover="clickImg2Bottom ('#text12-1','','','','','#block12')" onmouseout="clickImgBottom ()"  class="fontZise text3" >
+                        Картель 
+                    </p>
+                    <p onmouseover="clickImg2Bottom ('#text13-1','','','','','#block13')" onmouseout="clickImgBottom ()"  class="fontZise text3" >
+                        Концерн 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 10px;padding: 10px;height: 200px;background-color: #ffffff;margin-bottom: 10px;text-align: center;">
+            <div id="block7">
+                <h3 id="text7-1">
+                    Каковы были социально-экономические последствия второй промышленной революции?
+                </h3>
+            </div>
+
+            <div  id="block8">
+                <p style="display: none;filter:opacity(0%)" id="text8-1" class="fontZise" >
+                    «Привлечение, аккумуляция средств многих лиц и превращение их в капитал путем организации предприятия в какой-то сфере деятельности с целью получение доходов, обеспечивающих удовлетворение интересов акционеров и постоянное развитие компании»
+                </p>
+            </div>
+
+            <div  id="block9">
+                <p style="display: none;filter:opacity(0%)" id="text9-1" class="fontZise" >
+                    Исключительное (монопольное) право в какой-либо сфере деятельности государства, организации; крупное хозяйственное объединение, сосредоточившее в своих руках большую часть производства и сбыта какого-либо товара, тем самым устанавливая своё господство в определенной отрасли хозяйства.
+                </p>
+            </div>
+
+            <div  id="block10">
+                <p style="display: none;filter:opacity(0%)" id="text10-1" class="fontZise" >
+                    Одна из форм монополистического объединения предприятий, при которой входящие в него предприятия полностью теряют свою коммерческую самостоятельность и подчиняются единому управлению.
+                </p>
+            </div>
+
+            <div  id="block11">
+                <p style="display: none;filter:opacity(0%)" id="text11-1" class="fontZise" >
+                    Одна из форм объединения предприятий, осуществляющих общую коммерческую деятельность (определение цен, закупку сырья, сбыт продукции и т.д.) при сохранении производственной самостоятельности.
+                </p>
+            </div>
+
+            <div  id="block12">
+                <p style="display: none;filter:opacity(0%)" id="text12-1" class="fontZise" >
+                    Форма экономического объединения, участники которого устанавливают единые цены на продукцию, договариваются об объёмах производства, делят рынки сбыта.
+                </p>
+            </div>
+
+            <div  id="block13">
+                <p style="display: none;filter:opacity(0%)" id="text13-1" class="fontZise" >
+                    Форма объединения предприятий разных отраслей, характеризуется самостоятельностью управления этих предприятий.
+                </p>
+            </div>
+
+
+        </div>-->
+        
+        <script type="text/javascript" src="assets/js/filter.js"></script>       
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

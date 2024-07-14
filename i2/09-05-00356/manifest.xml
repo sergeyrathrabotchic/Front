@@ -1,0 +1,301 @@
+<TsokRequest >
+      <id>5b066d3f-3326-4243-b382-07675acbb3a7</id>
+      <fill_datetime>2021-10-09 00:00:00</fill_datetime>
+      <number>09-08-00356</number>
+      <edu_levels_fk>92cb00cf-aec4-4370-be86-e4122ec96322</edu_levels_fk>
+      <subject_fk>7d019fd6-7ced-441e-9223-103b2817c407</subject_fk>
+      <class_number>8</class_number>
+      <classes_fk>980c78c7-cd9e-4abd-a87e-1862070b3802</classes_fk>
+      <lesson_number_fk>b9ec093b-4319-641e-b238-b952fd619bc4</lesson_number_fk>
+      <lesson_topic_fk>b2f0ab57-384c-3c64-2cd5-0e6dd4e38dc3</lesson_topic_fk>
+      <study_level_fk>6355e5a8-9d09-4746-be8e-eae7349fde6e</study_level_fk>
+      <lesson_type_fk>787a6960-b43b-603f-4c5e-a20fd77ebb7f</lesson_type_fk>
+      <ovz_type_fk></ovz_type_fk>
+      <keywords>extracurricular activities, after-school activities, time management, creativity, provide opportunities, improve communicative skills, educational clubs</keywords>
+      <short_description>Урок по предмету "Английский язык" для 8 класса по теме "Школьное образование, школьная жизнь, изучаемые предметы и отношение к ним, межличностные отношения в школе.  Школа. Зимняя эстафета"; Комбинированный урок. На уроке предусмотрено использование следующих типов электронных образовательных материалов: "Самостоятельная работа", "Галерея изображений (группа изображений по одной тематике)", "Подкасты", "Кейсы по работе с информацией", "Самостоятельная работа".</short_description>
+      <youwillknow>какие бывают виды внеурочной деятельности, в том числе спортивные мероприятия и эстафеты; какие есть плюсы и минусы во внеурочной деятельности</youwillknow>
+      <youwilllearn>воспринимать на слух информацию о внеурочных занятиях, анализировать услышанное, сопоставлять информацию с приведёнными утверждениями; писать параграф о преимуществах и недостатках какого-то явления</youwilllearn>  
+      <author>Шиловская М. М (Авторский коллектив по английскому языку)</author>
+      
+      <BasicConcepts>
+        
+           <basic_concept>
+             <id>35da38e3-f89f-df4b-cd7e-451b76fa4dc4</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>219ed44d-de5b-6494-9cb8-6805f90c205d</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>fa073e29-f41e-5802-cea5-0b5d20155c61</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>738f4ce8-5d74-51d9-1382-95fdacf86fa4</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>4263e765-73d1-a32b-c9ba-c421ade174f5</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>e4fecdbd-0591-fbdc-72da-51bf144888d2</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>ca03f3ab-2d36-127a-c47b-71a25b516df4</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>45cf04b7-fd16-f336-aa95-58009f675c61</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>41db7682-d8c8-0bcb-6dcf-094706b4abfa</id>
+           </basic_concept>
+        
+           <basic_concept>
+             <id>a6e26f05-59cd-05f4-e5d5-eb02c4c9e571</id>
+           </basic_concept>
+        
+      </BasicConcepts>
+      
+      <RequestUnits>
+            <RequestUnit>
+                <id>00efe27e-df57-6082-0ef9-cc97d57578f4</id>
+                <unit_fk>9270d4ad-5a92-4b4b-acbf-d8ae6457440f</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>6399bab1-267e-4dcf-9a8c-7af5dfd062fd</id>
+                        <number>1.1</number>
+                        <module_fk>ed1bba8e-c04d-4baa-a693-04f1a9c6363e</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>6f0af2ff-7eda-44f2-be49-7d1075110c4b</id>
+                              <number>09-08-00356-m1.1m-43-01</number>
+                              <name>Работа с фотографиями и их описание</name>
+                              <developer></developer>
+                              <recomm_minutes>7</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>c3d4602c-3ae8-2e5d-b7b2-0383fc1b801d</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>1247d7bb-0df0-2d55-d191-9e0ddb80717f</id>
+                <unit_fk>678263a6-9ac5-4007-af57-e0434c4acf5e</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>d318102b-57a8-4644-83c0-3448d1484d0c</id>
+                        <number>3.3</number>
+                        <module_fk>86278196-31d8-4bf9-9f96-e5364d16de17</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>59c39df6-6c79-46bf-8ed2-bf76eaccc5cf</id>
+                              <number>09-08-00356-m3.3m-27-01</number>
+                              <name>Аудирование в формате ГИА</name>
+                              <developer></developer>
+                              <recomm_minutes>12</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>c1bdeb7c-f7be-2221-d428-9abbbf854613</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+            <RequestUnit>
+                <id>bb90ae09-50e6-029c-2545-9ca54041a941</id>
+                <unit_fk>a7c523f6-0a0c-49f2-a754-a42f7777494d</unit_fk>
+                <UnitModules>
+                    <UnitModule>
+                        <id>c8ed4fc3-91d3-458a-aa76-d37151813086</id>
+                        <number>2.2</number>
+                        <module_fk>344ee1b8-da31-4388-a947-3a2057ba6f31</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>9d515fb0-7773-4a1f-9c09-a5a2a6b8edcd</id>
+                              <number>09-08-00356-m2.2m-21-01</number>
+                              <name>Вопросы по тексту</name>
+                              <developer></developer>
+                              <recomm_minutes>10</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>f052c662-9251-c0ea-dd5c-2da68306e540</eom_type_fk>
+                              <calculator_required></calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                    <UnitModule>
+                        <id>8ca605fc-b6ea-42fb-b422-5e9c822914e9</id>
+                        <number>2.1</number>
+                        <module_fk>3b8b73e9-ee81-4934-9660-33a19881be91</module_fk>
+                        <teacher_guidelines></teacher_guidelines>
+                        <student_guide></student_guide>
+                        <EomTasks>
+                          <EomTask>
+                              <id>818b0e16-1349-4940-8b5f-ba403a1042e6</id>
+                              <number>09-08-00356-m2.1m-06-01</number>
+                              <name>Работа с текстом</name>
+                              <developer>Куклина М.  (Группа разработчиков контента)</developer>
+                              <recomm_minutes>16</recomm_minutes>
+                              <source_list></source_list>
+                              <eom_type_fk>48dc086b-af94-bf63-ff3d-546f629eb664</eom_type_fk>
+                              <calculator_required>False</calculator_required>
+                              
+                                  <task_kes_fipis>
+                                    
+                                  </task_kes_fipis>
+                              
+                                  <task_ku_kes_fipis>
+                                  
+                                  </task_ku_kes_fipis>
+                              
+                                  <task_pes_fipis>
+                                   
+                                  </task_pes_fipis>
+                              
+                                  <task_pu_pes_fipis>
+                                   
+                                  </task_pu_pes_fipis>
+                                
+                                  <task_international_studies>
+                                    
+                                  </task_international_studies>
+                                  
+                                  <task_personal_results>
+                                    
+                                  </task_personal_results>
+                                  
+                                  <teacher_subjects>
+                                    
+                                  </teacher_subjects>
+      
+                                  <teacher_metasubjects>
+                                    
+                                  </teacher_metasubjects>
+                          </EomTask>
+                        
+                        </EomTasks>
+                      
+                     </UnitModule>
+                     
+                </UnitModules>
+            </RequestUnit>
+      </RequestUnits>  
+      
+    </TsokRequest>
